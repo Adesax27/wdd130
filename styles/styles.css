@@ -28,14 +28,6 @@ h1 {
     color: blueviolet;
 }
 
-main img {
-    width: 200px;
-    height: auto;
-    border: #fff;
-    padding: 2rem;
-    box-shadow: 30px 20px 30px;
-}
-
 aside img {
     width: 200px;
     height: auto;
@@ -44,6 +36,9 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    border: #eee;
+    padding: 1rem;
+    box-shadow: 20px 10px 20px;
 }
 
 p {
@@ -52,7 +47,7 @@ p {
 
 footer {
     margin-top: 15px;
-    border-top: 15px;
+    border-top: 20px;
     border: 1px solid #000;
     text-align: center;
 }
