@@ -32,3 +32,25 @@ footer {
     border: 1px solid #000;
     text-align: center;
 }
+
+/* New Rules */
+nav {
+    background-color: #333;
+    /* Added background-color */
+    padding: 1rem;
+    /* Added padding */
+}
+
+nav a {
+    color: #fff;
+    /* Added color */
+    padding: 0.5rem;
+    /* Added padding */
+    display: block;
+    /* Added display */
+}
+
+h1 {
+    color: #000;
+    /* Added color declaration */
+}
