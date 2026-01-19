@@ -3,7 +3,8 @@
     --secondary-color: #f4a261;
     --accent1-color: #264653;
     --accent2-color: #e9c46a;
-    --headinf-font: "Times New Roman", "Georgia", serif;
+    /* Fixed the typo from 'headinf' to 'heading' */
+    --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
 
@@ -14,13 +15,16 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    /* Applied Variable */
+    font-family: var(--body-font);
     color: black;
 }
 
 header {
-    background-color: floralwhite;
-    color: #abc;
+    /* Applied Variable */
+    background-color: var(--primary-color);
+    color: white;
+    /* Changed to white for better contrast against dark green */
 }
 
 header,
@@ -33,7 +37,8 @@ footer {
 
 h1,
 h2 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* Applied Variable */
+    font-family: var(--heading-font);
     color: black;
 }
 
@@ -45,8 +50,15 @@ article {
     padding: 8px;
 }
 
+/* Example: Using an accent color for section headings */
+h2 {
+    border-bottom: 2px solid var(--accent2-color);
+}
+
 .socialmedia a {
     text-decoration: none;
+    /* Example: Color your social links with an accent */
+    color: var(--accent1-color);
 }
 
 .hero {
@@ -65,8 +77,9 @@ article {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
-    background-color: whitesmoke;
+    opacity: 0.8;
+    /* Using your accent color for the hero background */
+    background-color: var(--accent2-color);
 }
 
 .hero article img {
