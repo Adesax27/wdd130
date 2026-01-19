@@ -15,16 +15,13 @@
 }
 
 body {
-    /* Applied Variable */
     font-family: var(--body-font);
     color: black;
 }
 
 header {
-    /* Applied Variable */
     background-color: var(--primary-color);
-    color: white;
-    /* Changed to white for better contrast against dark green */
+    color: forestgreen;
 }
 
 header,
@@ -37,7 +34,6 @@ footer {
 
 h1,
 h2 {
-    /* Applied Variable */
     font-family: var(--heading-font);
     color: black;
 }
@@ -50,14 +46,12 @@ article {
     padding: 8px;
 }
 
-/* Example: Using an accent color for section headings */
 h2 {
     border-bottom: 2px solid var(--accent2-color);
 }
 
 .socialmedia a {
     text-decoration: none;
-    /* Example: Color your social links with an accent */
     color: var(--accent1-color);
 }
 
@@ -78,7 +72,6 @@ h2 {
     padding: 16px;
     text-align: center;
     opacity: 0.8;
-    /* Using your accent color for the hero background */
     background-color: var(--accent2-color);
 }
 
