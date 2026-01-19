@@ -1,3 +1,12 @@
+:root {
+    --primary-color: #055a05;
+    --secondary-color: #f4a261;
+    --accent1-color: #264653;
+    --accent2-color: #e9c46a;
+    --headinf-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +21,6 @@ body {
 header {
     background-color: floralwhite;
     color: #abc;
-    /* Change to a color that contrasts */
 }
 
 header,
@@ -51,7 +59,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
