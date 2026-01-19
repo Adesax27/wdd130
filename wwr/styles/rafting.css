@@ -1,9 +1,9 @@
 :root {
     --primary-color: #055a05;
     --secondary-color: #f4a261;
+    /* Now Used below */
     --accent1-color: #264653;
     --accent2-color: #e9c46a;
-    /* Fixed the typo from 'headinf' to 'heading' */
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -21,13 +21,20 @@ body {
 
 header {
     background-color: var(--primary-color);
+    /* Changed to white for readability against dark green */
     color: forestgreen;
+}
+
+nav a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: bold;
 }
 
 header,
 main,
 footer {
-    width: 100%;
+    width: 220%;
     max-width: 840px;
     margin: 0 auto;
 }
@@ -57,6 +64,7 @@ h2 {
 
 .hero {
     position: relative;
+    display: block;
 }
 
 .hero img {
@@ -68,14 +76,32 @@ h2 {
 .hero h1 {
     position: absolute;
     top: 20px;
+    left: 0;
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.8;
     background-color: var(--accent2-color);
+    opacity: 0.8;
+    margin: 0;
+}
+
+.hero article {
+    position: absolute;
+    top: 120px;
+    right: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    max-width: 400px;
+    border: 2px solid var(--secondary-color);
 }
 
 .hero article img {
     float: right;
-    width: 125px;
+    width: 100px;
+    margin-left: 1rem 1rem 1rem;
+}
+
+footer {
+    border-top: 5px solid var(--secondary-color);
+    padding: 20px 0;
 }
