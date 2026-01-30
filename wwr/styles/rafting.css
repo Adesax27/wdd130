@@ -24,7 +24,7 @@ header {
 }
 
 nav {
-    background-color: rgba(235, 235, 12, 0.418);
+    background-color: rgb(245, 165, 16);
     padding: 1rem;
     display: flex;
     justify-content: space-evenly;
@@ -147,12 +147,12 @@ article {
 /*goos*/
 .hero,
 div h2 {
-    background-color: rgba(235, 235, 12, 0.418);
+    background-color: rgb(245, 165, 16);
 }
 
 /*goos*/
 section h2 {
-    background-color: rgba(235, 235, 12, 0.418);
+    background-color: rgb(245, 165, 16);
     border: 2px solid var(--secondary-color);
 }
 
@@ -177,7 +177,7 @@ section h2 {
 }
 
 .adventure-gallery h2 {
-    background-color: rgba(235, 235, 12, 0.418);
+    background-color: rgb(245, 165, 16);
     padding: 2px;
     width: 800px;
     border: 2px solid var(--secondary-color);
