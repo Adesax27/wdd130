@@ -1,10 +1,11 @@
 :root {
-    --primary-color: #055a05;
+    --primary-color: #222;
     --secondary-color: #222;
-    --accent1-color: #264653;
+    --accent1-color: #fcfafa;
     --accent2-color: #228b22;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
+    --background-color: #dacfcf
 }
 
 * {
@@ -15,7 +16,7 @@
 
 body {
     font-family: var(--body-font);
-    color: black;
+    color: var(--secondary-color);
     margin: 0 auto;
 }
 
@@ -24,7 +25,7 @@ header {
 }
 
 nav {
-    background-color: rgb(245, 165, 16);
+    background-color: var(--background-color);
     padding: 1rem;
     display: flex;
     justify-content: space-evenly;
@@ -43,7 +44,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #fff2ff;
+    color: var(--accent1-color);
     /* Optional hover effect */
 }
 
@@ -59,7 +60,7 @@ p {
     justify-content: center;
     color: var(--secondary-color);
     margin: 1rem;
-    border: 1px solid rgb(0, 0, 0, .1);
+    border: 1px solid var(--secondary-color);
     padding: 1rem;
     display: flex;
     align-items: flex-start;
@@ -147,12 +148,12 @@ article {
 /*goos*/
 .hero,
 div h2 {
-    background-color: rgb(245, 165, 16);
+    background-color: var(--background-color);
 }
 
 /*goos*/
 section h2 {
-    background-color: rgb(245, 165, 16);
+    background-color: var(--background-color);
     border: 2px solid var(--secondary-color);
 }
 
@@ -162,7 +163,7 @@ section h2 {
     bottom: -2px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: var(--accent1-color);
     padding: 2px;
     width: 800px;
     border: 2px solid var(--secondary-color);
@@ -177,7 +178,7 @@ section h2 {
 }
 
 .adventure-gallery h2 {
-    background-color: rgb(245, 165, 16);
+    background-color: var(--background-color);
     padding: 2px;
     width: 800px;
     border: 2px solid var(--secondary-color);
@@ -194,7 +195,7 @@ section h2 {
 }
 
 figure {
-    border: 1px solid silver;
+    border: 1px solid var(--accent1-color);
     display: flex;
     flex-flow: column;
     padding: 5px;
@@ -210,8 +211,8 @@ img {
 }
 
 figcaption {
-    background-color: #222222;
-    color: #fff;
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
     font: smaller Georgia;
     padding: 8px;
     text-align: center;
@@ -224,7 +225,7 @@ footer {
     align-items: center;
     border-top: 5px solid var(--secondary-color);
     padding: 20px 20px;
-    border-bottom: thick black;
+    border-bottom: thick var(--secondary-color);
 }
 
 .socialmedia {
