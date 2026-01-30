@@ -42,7 +42,7 @@ h1 {
 }
 
 h2 {
-    font-family: var(--heading-font);
+    font-family: var(--heading-font Times New Roman);
     color: black;
     text-align: center;
 }
