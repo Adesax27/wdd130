@@ -14,8 +14,8 @@
 }
 
 body {
-    font-family: var(--body-font Helvetica);
-    color: black for;
+    font-family: var(--body-font);
+    color: black;
 }
 
 header {
@@ -25,7 +25,7 @@ header {
 nav a {
     color: var(--secondary-color);
     text-decoration: none;
-    font-weight: bold 800px;
+    font-weight: bold;
 }
 
 header,
@@ -42,8 +42,8 @@ h1 {
 }
 
 h2 {
-    font-family: var(--heading-font Times New Roman);
-    color: black;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
     text-align: center;
 }
 
@@ -55,7 +55,7 @@ footer {
 }
 
 nav {
-    background-color: navajowhite;
+    background-color: rgba(235, 235, 12, 0.418);
     padding: 1rem;
     display: flex;
     justify-content: space-evenly;
@@ -71,7 +71,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #228b22;
+    color: #fff2ff;
     /* Optional hover effect */
 }
 
@@ -84,7 +84,7 @@ p {
     display: flex;
     align-items: flex-start;
     text-align: center;
-    font-style: italic;
+    font-style: normal Arial;
 }
 
 /*goos*/
@@ -199,17 +199,19 @@ section h2 {
     flex-direction: row;
     justify-content: center;
     gap: 20px;
-    margin: 20px 0;
+    margin: 20px auto;
     flex-wrap: wrap;
+    max-width: 800px;
 }
 
 figure {
-    border: thick silver solid;
+    border: 1px solid silver;
     display: flex;
     flex-flow: column;
     padding: 5px;
     max-width: 130px;
     margin: 0;
+    flex: 0 1 150px;
 }
 
 img {
@@ -221,7 +223,7 @@ img {
 figcaption {
     background-color: #222222;
     color: #fff;
-    font: italic smaller sans-serif;
+    font: smaller Georgia;
     padding: 8px;
     text-align: center;
     margin-top: auto;
