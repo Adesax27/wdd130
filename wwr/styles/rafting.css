@@ -16,42 +16,11 @@
 body {
     font-family: var(--body-font);
     color: black;
+    margin: 0 auto;
 }
 
 header {
     background-color: var(--primary-color);
-}
-
-nav a {
-    color: var(--secondary-color);
-    text-decoration: none;
-    font-weight: bold;
-}
-
-header,
-main,
-footer {
-    width: 800px;
-    margin: 0 auto;
-}
-
-h1 {
-    justify-content: center;
-    color: var(--primary-color);
-
-}
-
-h2 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-    text-align: center;
-}
-
-header,
-.grid,
-footer {
-    max-width: 800px;
-    margin: 0 auto;
 }
 
 nav {
@@ -68,6 +37,9 @@ nav a {
     font-size: 1rem;
     padding: 1rem;
     align-items: center;
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: bold;
 }
 
 nav a:hover {
@@ -75,8 +47,17 @@ nav a:hover {
     /* Optional hover effect */
 }
 
+header,
+main,
+footer {
+    width: 800px;
+    margin: 0 auto;
+}
+
 h1,
 p {
+    justify-content: center;
+    color: var(--primary-color);
     margin: 1rem;
     border: 1px solid rgb(0, 0, 0, .1);
     padding: 1rem;
@@ -84,6 +65,21 @@ p {
     display: flex;
     align-items: flex-start;
     text-align: center;
+
+}
+
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center;
+    border-bottom: 1px solid var(--accent1-color);
+}
+
+header,
+.grid,
+footer {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 /*goos*/
@@ -115,11 +111,6 @@ section,
 article {
     margin: 1px;
     padding: 4px;
-}
-
-/*goos*/
-h2 {
-    border-bottom: 1px solid var(--accent1-color);
 }
 
 /*goos*/
