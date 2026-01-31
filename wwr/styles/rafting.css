@@ -35,21 +35,15 @@ nav {
 }
 
 nav a {
-    display: grid;
-    grid-template-columns: auto;
     position: relative;
     font-size: 1rem;
     padding: 1rem;
     align-items: center;
-    color: var(--secondary-color);
+    color: #ffffff;
+    background-color: var(--secondary-color);
     text-decoration: none;
     font-weight: bold;
     justify-content: space-between;
-}
-
-nav a:hover {
-    color: var(--accent2-color);
-    /* Optional hover effect */
 }
 
 header,
@@ -149,7 +143,7 @@ article {
     padding: 8px;
     text-align: center;
     background-color: var(--accent2-color);
-    color: var(--accent1-color);
+    color: #ffffff;
     opacity: 0.9;
     margin: 0;
     font-style: normal;
