@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #222;
+    --primary-color: #22222296.81;
     --secondary-color: #222;
-    --accent1-color: #fcfafa;
+    --accent1-color: rgb(252, 250, 250);
     --accent2-color: #228b22;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -196,7 +196,7 @@ section h2 {
 
 .adventure-gallery-section {
     text-align: center;
-    padding: 0 auto;
+    padding: 1px;
 }
 
 .gallery-grid {
@@ -219,7 +219,7 @@ figure {
 img {
     display: block;
     max-width: 100%;
-    height: 0 auto;
+    height: 100px;
 }
 
 figcaption {
@@ -237,9 +237,14 @@ footer {
     align-items: center;
     border-top: 5px solid var(--secondary-color);
     padding: 20px 20px;
-    border-bottom: thick var(--secondary-color);
 }
 
 .socialmedia {
     display: flex;
     gap: 15px;
+}
+
+.socialmedia img {
+    max-width: 20px;
+    height: auto;
+}
