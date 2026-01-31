@@ -1,17 +1,23 @@
 :root {
     --primary-color: #1b1b80;
-    --secondary-color: #222;
-    --accent1-color: rgb(252, 250, 250);
+    --secondary-color: #222222;
+    --accent1-color: #ffffff;
     --accent2-color: #228b22;
-    --heading-font: "Times New Roman", "Georgia", serif;
+    --background-color: #dacfcf --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
-    --background-color: #dacfcf
 }
 
-* {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto;
 }
 
 body {
@@ -143,7 +149,8 @@ article {
     padding: 8px;
     text-align: center;
     background-color: var(--accent2-color);
-    opacity: 0.8;
+    color: var(--accent1-color);
+    opacity: 0.9;
     margin: 0;
     font-style: normal;
 }
