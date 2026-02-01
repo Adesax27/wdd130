@@ -70,7 +70,6 @@ h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     text-align: center;
-    border-bottom: 1px solid var(--accent1-color);
 }
 
 header,
@@ -146,12 +145,6 @@ article {
     opacity: 0.9;
     margin: 0;
     font-style: normal;
-}
-
-/*goos*/
-.hero,
-div h2 {
-    background-color: var(--background-color);
 }
 
 /*goos*/
