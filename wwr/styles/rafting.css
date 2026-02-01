@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #1b1b80;
+    --primary-color: #00000a;
     --secondary-color: #222222;
     --accent1-color: #ffffff;
     --accent2-color: #2e742e;
@@ -68,7 +68,7 @@ p {
 
 h2 {
     font-family: var(--heading-font);
-    color: var(--secondary-color);
+    color: var(--primary-color);
     text-align: center;
 }
 
