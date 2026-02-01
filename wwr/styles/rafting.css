@@ -24,7 +24,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    border: 1px solid var(--secondary-color);
+    border: 1px solid var(--primary-color);
 }
 
 nav a {
@@ -68,7 +68,7 @@ p {
 
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--secondary-color);
     text-align: center;
 }
 
