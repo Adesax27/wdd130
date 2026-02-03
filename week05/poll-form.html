@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADEMOLA SAMUEL OKUNJOYO | WDD 130</title>
+    <meta name="description" content="The beautiful city of Ibadan created in WDD 130 Class">
+    <meta name="author" content="Ademola Samuel">
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+
+<body>
+    <header>
+        <fieldset class="info-box">
+            <legend>Contact Information</legend>
+
+            <div class="form-item">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname">
+            </div>
+
+            <div class="form-item">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+        </fieldset>
+    </header>
+
+
+    <main>
+        <form>
+            <fieldset class="question-box">
+                <legend>Questions</legend>
+
+                <label for="browser">what is your favorite internet browser?</label>
+                <select name="browser" id="browser">
+                    <option value="chrome">CHROME</option>
+                    <option value="mozilla firefox">Mozilla FireFOX</option>
+                    <option value="edge">EDGE</option>
+                    <option value="safari">SAFARI</option>
+                    <option value="other">OTHER</option>
+                </select>
+
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+
+                <label for="feedback">kindly list the places you have lived</label>
+                <textarea name="feedback" id="feedback" rows="4"
+                  placeholder="Stillwater Florida, Armsterdam Netherlands, Ontarion Canada"></textarea>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+        <p>© 2026 | HTML Form - User Poll Activity | Ademola Samuel Okunjoyo</p>
+    </footer>
+</body>
+
+</html>
