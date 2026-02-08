@@ -266,6 +266,13 @@ footer {
     margin-bottom: 40px;
 }
 
+.map-container iframe {
+    width: 100%;
+    height: 400px;
+    /* Set your desired height here */
+    display: block;
+}
+
 /* Form Styling */
 form {
     display: flex;
@@ -328,4 +335,15 @@ button {
     width: 100px;
     height: 100px;
     object-fit: cover;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
 }
